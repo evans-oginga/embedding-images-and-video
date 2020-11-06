@@ -2,28 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Embedding Images and Video</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="menu">Menu</div>
+    <div class="menu">
+      <img class="header-icons" src="three.png" alt="three lines logo">
+      <img class="header-icons" src="logo.png" alt="youtube logo">
+      <input class="input1" size="100" type="search" name="search" value="search" placeholder="Search">
+      <img class="header-icons" src="nine.png" alt="youtube icon">
+      <img class="header-icons" src="notification.png" alt="notification icon">
+      <img class="header-icons" src="name.jpeg" alt="name icon">
+      </div>
     <div class="container">
     <div class="page">
-
-      <div class="sidebar">Sidebar</div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E"
+       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+       allowfullscreen></iframe>
+      <div class="sidebar">
+        <div class="thumbnail">
+          <p>Up Next</p>
+          <div class="column">
+            <div class="avatar"><img class="thumbnail-item1" src="git.png" alt=""></div>
+            <h3 class="usercontent">Your first git pull request in 10 mins</h3>
+            <p class='comment'>Jackson Bates.</p>
+          </div>
+          <div class="column">
+            <div class="avatar"><img class="thumbnail-item1" src="open.png" alt=""></div>
+            <h3 class="usercontent">Contributing to open source part 2</h3>
+            <p class='comment'>The Odin Project.</p>
+          </div>
+          <div class="column">
+            <div class="avatar"><img class="thumbnail-item1" src="speak.png" alt=""></div>
+            <h3 class="usercontent">How to speak by Patrick Winston.</h3>
+            <p class='comment'>MIT opencourseware.</p>
+          </div>
+          <div class="column">
+            <div class="avatar"><img class="thumbnail-item1" src="project.png" alt=""></div>
+            <h3 class="usercontent">How to pick an open source project, step by step</h3>
+            <p class='comment'>Jonathan Miz.</p>
+          </div>
+          <div class="column">
+            <div class="avatar"><img class="thumbnail-item1" src="github.png" alt=""></div>
+            <h3 class="usercontent">What is GitHub</h3>
+            <p class='comment'>GitHub.</p>
+          </div>
+          <div class="column">
+            <div class="avatar"><img class="thumbnail-item1" src="csstudent.png" alt=""></div>
+            <h3 class="usercontent">My Regrets As a Computer Science Student.</h3>
+            <p class='comment'>ForrestKnight.</p>
+          </div>
+        </div>
+      </div>
       <div class="content">
-      
-
-        <p>Ad netus sagittis velit orci est non ut urna taciti metus donec magnis
-        hendrerit adipiscing mauris sit a proin ultrices nibh.</p>
-
-
+        <p class="content-item1">Contributing to Open Source Part I: The Easy Way</p>
+        <div class="userviews">
+          <div class="column">
+            <div class="avatar1"></div>
+            <h3 class="username">Alice Smith</h3>
+            <p class='comment'>Thanks so much ! This video was really helpful and to the point.</p>
+          </div>
+          <div class="column">
+            <div class="avatar1"></div>
+            <h3 class="username">Bob Smith</h3>
+            <p class='comment'>They seem to have removed the link from the bottom of the student solutions...</p>
+          </div>
+          <div class="column">
+            <div class="avatar1"></div>
+            <h3 class="username">Jane Smith</h3>
+            <p class='comment'>Wow this video was super helpful, clear, and concise. Thank you very much.</p>
+          </div>
+        </div>
       </div>
     </div>
     </div>
-
-
-
   </body>
 
 </html>

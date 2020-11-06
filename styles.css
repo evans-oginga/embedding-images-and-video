@@ -1,29 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .page{
     overflow: hidden;
-    background-color: #EAEDF0;
+    background-color: white;
     width: 900px;
     margin: 0 auto;
-    border : 1px solid red;
-  }
-  .container{
+}
+.container{
     overflow: hidden;
-    background-color: #EAEDF0;
-  }
-  .menu{
+    background-color: white;
+}
+  /* the header section*/
+  
+.menu{
     height: 100px;
-    background-color: #B2D6FF;/*medium blue*/
-  }
-  .sidebar{
+    background-color: white;
+    overflow: hidden;
+}
+.header-icons{
+    float: left;
+    width: 100px;
+    padding: 30px;
+}
+.input1{
+    float:left;
+    margin: 15px;
+    padding:10px;
+    display: inline;
+    size: 50;
+}
+/* the side bar*/
+.sidebar{
     float: right;
-    width: 200px;
-    height: 3000px;
-    background-color: #F09A9D; /*red*/
-  }
-  .content{
-    /*float: left;
-    width: 650px;
-    height: 500px;
-    background-color: #F5CF8E; yellow*/
-    padding: 20%;
-  }
+    width: 300px;
+    height: 1000px;
+    background-color: white;
+}
+.thumbnail{
+    overflow: hidden;
+    background-color: white;
+}
+.thumbnail-item1{
+    width: 110px;
+    height: 110px;
+  
+}
+.column{
+    float:left;
+    width: 100%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: white;
+  
+}
+.article-image{
+    float:left;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+p{
+    margin: 20px;
+}
+.avatar{
+    float:left;
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #D6E9FE;
+}
+.usercontent{
+    margin-top: 30px
+}
+.comment{
+    margin: 10px;
+    overflow: hidden;
+}
+  
+.content{
+    padding: 0;
+    overflow: hidden;
+}
+.content-item1{
+    margin: 0;
+    padding: 10px;
+}
+.userviews{
+    overflow: hidden;
+    background-color: white;
+}
+.column{
+    float:left;
+    width: 100%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: white;
+  
+}
+.article-image{
+    float:left;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 20px;
+}
+.avatar1{
+    float:left;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 40px;
+    background-color: lightblue;
+}
+.username{
+    margin-top: 30px
+}
+  .comment{
+    margin: 10px;
+    overflow: hidden;
+}
   
