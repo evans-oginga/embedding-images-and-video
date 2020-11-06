@@ -1,0 +1,29 @@
+.page{
+    overflow: hidden;
+    background-color: #EAEDF0;
+    width: 900px;
+    margin: 0 auto;
+    border : 1px solid red;
+  }
+  .container{
+    overflow: hidden;
+    background-color: #EAEDF0;
+  }
+  .menu{
+    height: 100px;
+    background-color: #B2D6FF;/*medium blue*/
+  }
+  .sidebar{
+    float: right;
+    width: 200px;
+    height: 3000px;
+    background-color: #F09A9D; /*red*/
+  }
+  .content{
+    /*float: left;
+    width: 650px;
+    height: 500px;
+    background-color: #F5CF8E; yellow*/
+    padding: 20%;
+  }
+  
